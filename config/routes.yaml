@@ -1,0 +1,7 @@
+index:
+    path: /
+    controller: App\Controller\ExpressionController::index
+
+expression:
+    path: /expression{i}
+    controller: App\Controller\ExpressionController::expression
